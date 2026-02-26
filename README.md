@@ -1,2 +1,6 @@
-# lectures
-Kurz
+# Ukázka absolvování kurzu
+
+----
+
+- ### Python
+- ### Git - GitHub
