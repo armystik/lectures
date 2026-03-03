@@ -30,7 +30,7 @@ print(f"Po přidání: {books}")
 books[1]["price"] = 1550 # dal jsem změnu ceny u druhé knihy
 print(f"Po změně ceny: {books}")
 
-books.pop(0)
+books.pop(0) # smazal jsem první knihu
 print(f"Po odstranění: {books}")
 
 print(f"Celkový počet knih: ", len(books))
