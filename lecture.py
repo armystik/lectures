@@ -149,3 +149,45 @@ print(sjednoceni)
 print(rozdil)
 
     # t = tuple([1,2,3]) # tuple
+
+    # FUNKCE
+
+    # print("ahoj") # funkce se zavolá díky ()
+    # j = ["A", "B"]
+    # k = len(j)
+
+def hodnoceni(osloveni: str, vek: int) -> None:
+    # Tato funkce žádá o hodnocení
+
+    print(f"{osloveni} ({vek}), doufáme, že se ti v programu líbí! Kdyžtak zanech hodnocení.")
+
+    # for i in range(3):  # Vypíše 3x
+    #     hodnoceni()
+
+hodnoceni("Kubo", "28")
+hodnoceni("Alexi", "21")
+
+    # def soucet():
+    #     pass
+
+def soucet(cislo4: float, cislo5: float) -> float:
+    res = cislo4 + cislo5
+    return res
+a5 = 1.251
+b5 = 2.32
+c5 = soucet(a5, b5)
+print(c5)
+
+user = {
+    "name": "Kuba",
+    "age": 28,
+    "work": "IT",
+    "hair_color": "brown",
+}
+
+def change_work(user: dict, new_work: str):
+    user["work"] = new_work
+    # nemusim dávat: return user, protože se vrací v paměti
+print(user)
+change_work(user, "programator") # zde taky nemusim psát: user =
+print(user)
