@@ -191,6 +191,7 @@ def change_work(user: dict, new_work: str):
 print(user)
 change_work(user, "programator") # zde taky nemusim psát: user =
 print(user)
+
 ###### Podminky #######
 speed = 120
 limit = 140
@@ -204,3 +205,44 @@ else:
 name = "admin"
 if (name == "admin"):
     print("Vítej admine")
+elif (name == "user"):
+    print("Ahoj uživateli")
+else:
+    print("Namáš přístup")
+visitor = {
+    "name": "Ales",
+    "age": 17,
+    "height": 150
+}
+visitors = ["Pavel", "Kuba", "Lukáš", "David", "X"]
+if (visitor["age"] > 18 and visitor["height"] > 160):
+    print("Můžeš na tobogán")
+if (visitor["age"] > 15 or visitor["height"] > 140):
+    print("Můžeš na tobogán pro děti")
+if "X" in visitors:
+    print("Pozor na visitora X")
+
+# (!=) = nerovná se
+# (=) = rovná se
+# (if not) x < 5 = když neni x menší
+# (if) x < 5 = když je x menší
+# číslo 0 je False
+# prázdný řetězec nebo seznam je False
+# None je False
+
+films = []
+if len(films) > 0: #if films:
+    print("Seznam neni prázdný")
+else:
+    print("Seznam je prázdný")
+
+company = "ABC sro"
+
+result_ternary = "ABC s.r.o." if company == "ABC sro" else "Unknown"
+
+if company == "ABC sro":
+    result = "ABC s.r.o."
+else:
+    result = "Unknown"
+print(result)
+print(result_ternary)
