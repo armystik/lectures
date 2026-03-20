@@ -191,3 +191,16 @@ def change_work(user: dict, new_work: str):
 print(user)
 change_work(user, "programator") # zde taky nemusim psát: user =
 print(user)
+###### Podminky #######
+speed = 120
+limit = 140
+lower_limit = 100
+if (speed > limit):
+    print("Překročen limit rychlosti.")
+elif (speed < lower_limit):
+    print("Rychlost v pořádku.")
+else:
+    print("Rychlost fajn.")
+name = "admin"
+if (name == "admin"):
+    print("Vítej admine")
