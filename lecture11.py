@@ -34,7 +34,7 @@ class Postava:
             self.zdravi -= 10
             print(f"{self.jmeno} je vyčerpaný!")
 
- #### Zde zadávat jméno postavy ####
+ ### Zde zadávat jméno postavy ###
 
 p = Postava("Jakub") # <----
 
